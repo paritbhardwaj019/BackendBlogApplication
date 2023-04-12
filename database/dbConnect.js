@@ -1,10 +1,6 @@
 const mongoose = require("mongoose");
 
-const mongodbUrl = process.env.MONGODB_URI.replace(
-  "<PASSWORD>",
-  process.env.MONGODB_PASSWORD
-);
-
+const mongodbUrl = process.env.MONGODB_URI;
 exports.dbConnect = async () => {
   try {
     await mongoose.connect(mongodbUrl);
