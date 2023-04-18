@@ -1,1 +1,2 @@
-Deployed Link : blogify-alpha.vercel.app
+Deployed Link : 
+[a link](https://blogify-alpha.vercel.app)
