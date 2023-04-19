@@ -56,3 +56,4 @@ const postImageResize = async (req, res, next) => {
 };
 
 module.exports = { profilePhotoUpload, profilePhotoResize, postImageResize };
+0
